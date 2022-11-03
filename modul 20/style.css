@@ -1,0 +1,66 @@
+body{
+    padding: 100px; 
+}
+
+.inputItem{
+    width: 700px;
+}
+
+
+button{
+    background-color: rgb(16, 247, 247);
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.login #bank{
+    text-align: center;
+}
+.loginFrom{
+    width: 800px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.item{
+    display: inline-block;
+    width: 200px;
+    background-color: aqua; 
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin: 0px 10px;
+}
+
+#depo{
+    background-color: rgb(235, 110, 110);
+}
+
+#wid{
+background-color: rgb(184, 144, 70);
+}
+
+.depoWidro{
+    display: inline-flex;
+    width: 50%;
+}
+
+.deposit{
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    width: 400px;
+}
+
+#dashbord{
+    display: none;
+}
+
+.input_bal{
+    width: 200px;
+}

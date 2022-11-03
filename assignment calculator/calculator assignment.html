@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <th>
+            <input id="tvDisplay" type="text">
+        </th><br>
+        
+        <tr>
+            <td><input type="button" value="7" class="allButton" onclick="calculate('7')"></td>
+            <td><input type="button" value="8" class="allButton" onclick="calculate('8')"></td>
+            <td><input type="button" value="9" class="allButton" onclick="calculate('9')"></td>
+            <td><input type="button" value="/" class="allButton" onclick="calculate('/')"></td>
+        </tr><br>
+
+        <tr>
+            <td><input type="button" value="6" class="allButton" onclick="calculate('6')"></td>
+            <td><input type="button" value="5" class="allButton" onclick="calculate('5')"></td>
+            <td><input type="button" value="4" class="allButton" onclick="calculate('4')"></td>
+            <td><input type="button" value="*" class="allButton" onclick="calculate('*')"></td>
+        </tr><br>
+
+        <tr>
+            <td><input type="button" value="3" class="allButton" onclick="calculate('3')"></td>
+            <td><input type="button" value="2" class="allButton" onclick="calculate('2')"></td>
+            <td><input type="button" value="1" class="allButton" onclick="calculate('1')"></td>
+            <td><input type="button" value="-" class="allButton" onclick="calculate('-')"></td>
+        </tr><br>
+
+        <tr>
+            <td><input type="button" value="C" class="allButton" id="delate" onclick="delate()"></td>
+            <td><input type="button" value="0" class="allButton" onclick="calculate('0')"></td>
+            <td><input type="button" value="=" class="allButton" onclick="result()"></td>
+            <td><input type="button" value="+" class="allButton" onclick="calculate('+')"></td>
+        </tr>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

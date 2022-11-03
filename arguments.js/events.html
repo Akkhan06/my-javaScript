@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+  </head>
+  <body>
+    <h1>hello world</h1>
+    <ul id="allList">
+      <li id="fist" class="item">Lorem.</li>
+      <li class="item">Nisi!</li>
+      <li class="item">Assumenda.</li>
+      <li class="item">Ad!</li>
+    </ul>
+
+    <button id="add"> add new</button>
+
+    <script>
+      // var items = document.getElementsByClassName("item");
+
+      // for (let i = 0; i < items.length; i++) {
+      //   const element = items[i];
+      //   element.addEventListener("click", function (Event) {
+
+      //     Event.target.parentNode.removeChild(event.target);
+
+      //   });
+      // }
+
+      document.getElementById('add').addEventListener("click", function(event){
+        var listItem = document.getElementById('allList');
+        var create = document.createElement('li');
+        create.innerHTML = 'this is new item';
+        listItem.appendChild(create);
+
+      })
+
+
+      document.getElementById("allList").addEventListener('click', function(event){
+
+        event.target.parentNode.removeChild(event.target);
+      })
+    </script>
+  </body>
+</html>
